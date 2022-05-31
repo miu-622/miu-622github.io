@@ -2,96 +2,128 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Wooden Jewelry</title>
-        <link rel="shortcut icon" href="https://github.com/miu-622/miu-622github.io/blob/main/faviconV2.png?raw=true">
+        <title>TOTALLY</title>
+        <link rel="shortcut icon" href="image/faviconV2.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-        <link href="https://miu-622.github.io/test/common.css" rel="stylesheet" type="text/css">
-        <script type="text/javascript" src="https://miu-622.github.io/test/jquery-3.4.1.min.js"></script>
-        <script type="text/javascript" src="https://miu-622.github.io/test/script.js"></script>
+        <link href="css/common.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
 
     </head>
 
     <body>
         <div id="container">
-            <header class="flex">
-                <h1><img src="https://raw.githubusercontent.com/miu-622/test/16fd8e7e2dcb68a09e0b851b05b97383df29a7aa/logo.svg"></h1>
-                <nav>
-                    <ul class="flex">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#works">Works</a></li>
-                        <li><a href="#news">News</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li id="instagram"><a href="#"><img src="https://github.com/miu-622/test/blob/main/icon-instagram.png?raw=true"></a></li>
+            <header>
+                <h1><img src="image/logo.svg"></h1>
+                <nav class="flex">
+                    <ul class="flex" id="menu">
+                        <li>ALL</li>
+                        <li>NEW</li>
+                        <li>VINTAGE</li>
+                        <li>CATEGORY</li>
+                        <li>LOCKBOOK</li>
+                        <li>BLOG</li>
+                    </ul>
+
+                    <ul class="flex" id="login">
+                        <li>LOGIN</li>
+                        <li>CONTACT</li>
                     </ul>
                 </nav>
             </header>
 
-            <div id="main_img">
-                <picture>
-                <source srcset="https://github.com/miu-622/test/blob/main/mainvisual-sp.jpg?raw=true" media="(max-width: 600px)">
-                <img src="https://github.com/miu-622/test/blob/main/mainvisual-pc.jpg?raw=true">
-                </picture>
-            </div>
+            <main class="flex">
+                <div id="item_left"><img src="image/item.jpg"></div>
 
-            <main>
-                <section class="inner" id="about_area">
-                    <h2 id="about">About</h2>
-                    <ul>
-                        <li>Xxxxx Ashley</li>
-                        <li>2th Floor xxxx Building x-x-x Nishiazabu, Minato-ku, Tokyo 106-0031 Japan</li>
-                        <li>Tel: 000-0000-0000</li>
-                        <li>url: www.xxx@xxxxxx.jp</li>
-                        <li>Mail: xxx.xxxxxx.jp</li>
-                    </ul>
-                    <p>プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                </section>
+                <div id="item_right">
+                    <section>
+                        <h2>TOTALLY Short Sleeve Shirt</h2>
+                        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        <p>￥9,999 +tax</p>
+                    </section>
 
-                <section class="inner">
-                    <h2 id="works">works</h2>
-                    <div class="flex" id="works_area">
-                    <img src="https://github.com/miu-622/test/blob/main/works1.jpg?raw=true">
-                    <img src="https://github.com/miu-622/test/blob/main/works2.jpg?raw=true">
-                    <img src="https://github.com/miu-622/test/blob/main/works3.jpg?raw=true">
-                    <img src="https://github.com/miu-622/test/blob/main/works4.jpg?raw=true">
-                    <img src="https://github.com/miu-622/test/blob/main/works5.jpg?raw=true">
-                    <img src="https://github.com/miu-622/test/blob/main/works6.jpg?raw=true">
-                    </div>
-                </section>
-                
-                <section class="inner" id="news_area">
-                    <h2 id="news">News</h2>
-                    <dl class="flex">
-                        <dt>2020.xx.xx</dt>
-                        <dd>デザイン誌「XXXXXVol.11」に掲載していただきました。</dd>
-                        <dt>2020.xx.xx</dt>
-                        <dd>XX月XX日から写真集「XXXXXXX」の販売を開始します。</dd>
-                        <dt>2019.xx.xx</dt>
-                        <dd>【イベント開催のお知らせ】テキストテキストテキストテキスト。</dd>
-                        <dt>2019.xx.xx</dt>
-                        <dd>デザイン誌「XXXXXVol.10」に掲載していただきました。</dd>
-                        <dt>2019.xx.xx</dt>
-                        <dd>【個展開催のお知らせ】テキストテキストテキストテキスト。</dd>
-                    </dl>
-                </section>
+                    <table class="order">
+                        <thead>
+                            <tr>
+                                <th>Color</th>
+                                <th>Size</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="color">White</td>
+                                <td class="size">S</td>
+                                <td class="clothes">
+                                    <select>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="color">White</td>
+                                <td class="size">M</td>
+                                <td class="clothes">
+                                    <select>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="color">White</td>
+                                <td class="size">L</td>
+                                <td class="clothes">
+                                    <select>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="#" id="cart">ADD TO CART</a>
 
-                <section class="inner">
-                    <h2 id="contact">Contact</h2>
-                    <form>
-                        <dl class="flex">
-                        <dt>NAME</dt>
-                        <dd><input></dd>
-                        <dt>E-mail</dt>
-                        <dd><input></dd>
-                        <dt>MESSAGE</dt>
-                        <dd><textarea></textarea></dd>
-                        </dl>
-                    </form>
-                    <div id="button"><input type="submit" value="送信" id="submit"></div>
-                </section>
+                    <table id="size_list">
+                        <thead>
+                            <tr>
+                                <th>Size</th>
+                                <th>Chest</th>
+                                <th>Weist</th>
+                                <th>Height</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="size">S</td>
+                                <td>99~99</td>
+                                <td>99~99</td>
+                                <td>99~99</td>
+                            </tr>
+                                <td class="size">M</td>
+                                <td>99~99</td>
+                                <td>99~99</td>
+                                <td>99~99</td>
+                            </tr>
+                            <tr>
+                                <td class="size">L</td>
+                                <td>99~99</td>
+                                <td>99~99</td>
+                                <td>99~99</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </main>
-            <footer>&copy; 2020 My Work</footer>
+
+            <footer>&copy;TOTALLY</footer>
         </div>
         <script src="js/script.js"></script>
     </body>
