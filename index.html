@@ -2,13 +2,10 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>TOTALLY</title>
-        <link rel="shortcut icon" href="https://github.com/miu-622/test/blob/main/faviconV2.png?raw=true">
+        <title>Web Entertainment Design</title>
+        <link rel="shortcut icon" href="image/faviconV2.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-        <link href="https://miu-622.github.io/test/common.css" rel="stylesheet" type="text/css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+        <link href="css/common.css" rel="stylesheet" type="text/css">
         <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
 
@@ -16,115 +13,133 @@
 
     <body>
         <div id="container">
-            <header>
-                <h1><img src="https://raw.githubusercontent.com/miu-622/test/c48c05cd688b15d850e384b4ebd0154356ffa4e7/logo.svg"></h1>
-                <nav class="flex">
-                    <ul class="flex" id="menu">
-                        <li>ALL</li>
-                        <li>NEW</li>
-                        <li>VINTAGE</li>
-                        <li>CATEGORY</li>
-                        <li>LOCKBOOK</li>
-                        <li>BLOG</li>
-                    </ul>
-
-                    <ul class="flex" id="login">
-                        <li>LOGIN</li>
-                        <li>CONTACT</li>
-                    </ul>
-                </nav>
+            <header class="flex">
+                <div class="flex header_inner">
+                    <h1><img src="image/logo.svg"></h1>
+                    <nav>
+                        <ul class="flex">
+                            <a href="#news"><li>NEWS</li></a>
+                            <a href="#about"><li>ABOUT</li></a>
+                            <a href="#business"><li>BUSINESS</li></a>
+                            <a href="#company"><li>COMPANY</li></a>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="contact">お問い合わせ</div>
             </header>
 
-            <main class="flex">
-                <div id="item_left"><img src="https://github.com/miu-622/test/blob/main/item.jpg?raw=true"></div>
+            <div id="main_img"><img src="image/mainvisual.jpg"></div>
 
-                <div id="item_right">
-                    <section>
-                        <h2>TOTALLY Short Sleeve Shirt</h2>
-                        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                        <p>￥9,999 +tax</p>
-                    </section>
 
-                    <table class="order">
-                        <thead>
-                            <tr>
-                                <th>Color</th>
-                                <th>Size</th>
-                                <th></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="color">White</td>
-                                <td class="size">S</td>
-                                <td class="clothes">
-                                    <select>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                    </select>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="color">White</td>
-                                <td class="size">M</td>
-                                <td class="clothes">
-                                    <select>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                    </select>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="color">White</td>
-                                <td class="size">L</td>
-                                <td class="clothes">
-                                    <select>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                    </select>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <a href="#" id="cart">ADD TO CART</a>
+            <div id="main">
+                <section id="news" class="main_inner">
+                    <h2>
+                        <span class="en">NEWS</span>
+                        <span class="ja">ニュース</span>
+                        <hr>
+                    </h2>
+                    <ul class="flex" id="news_flex">
+                        <li>
+                            <div class="news_list">2021.01.01<span>NEWS</span></div>
+                            <p>タイトルタイトルタイトル</p>
+                        </li>
+                        <li>
+                            <div class="news_list">2021.01.01<span>PRESS</span></div>
+                            <p>タイトルタイトルタイトル</p>
+                        </li>
+                        <li>
+                            <div class="news_list">2021.01.01<span>NEWS</span></div>
+                            <p>タイトルタイトルタイトル</p>
+                        </li>
+                    </ul>
+                </section>
 
-                    <table id="size_list">
-                        <thead>
-                            <tr>
-                                <th>Size</th>
-                                <th>Chest</th>
-                                <th>Weist</th>
-                                <th>Height</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="size">S</td>
-                                <td>99~99</td>
-                                <td>99~99</td>
-                                <td>99~99</td>
-                            </tr>
-                                <td class="size">M</td>
-                                <td>99~99</td>
-                                <td>99~99</td>
-                                <td>99~99</td>
-                            </tr>
-                            <tr>
-                                <td class="size">L</td>
-                                <td>99~99</td>
-                                <td>99~99</td>
-                                <td>99~99</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <section class="flex" id="about">
+                    <div id="about_img"><img src="image/about.jpg"></div>
+                    <div id="about_text">
+                        <h2><span class="en">ABOUT</span>
+                            <span class="ja">私たちについて</span>
+                            <hr>
+                        </h2>
+                        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    </div>
+                </section>
+
+                <section class="main_inner" id="business">
+                    <h2>
+                        <span class="en">BUSINESS</span>
+                        <span class="ja">事業内容</span>
+                        <hr>
+                    </h2>
+                    <div class="flex" id="business_photo">
+
+                        <div id="left">
+                            <div class="item">
+                                <h3>- Web制作・マーケティング</h3>
+                                <div class="item_img"><img src="image/business1.jpg"></div>
+                            </div>
+                            <div class="item">
+                                <h3>- インターネットメディア事業</h3>
+                                <div class="item_img"><img src="image/business2.jpg"></div>
+                            </div>
+                        </div>
+
+                        <div id="right">
+                            <div class="item">
+                                <h3>- プロプーション企画・制作</h3>
+                                <div class="item_img"><img src="image/business3.jpg"></div>
+                            </div>
+                            <div class="item">
+                                <h3>- ソーシャル企画・運営</h3>
+                                <div class="item_img"><img src="image/business4.jpg"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section class="main_inner flex" id="company">
+                    <div id="company_left">
+                        <h2>
+                            <span class="en">COMCANY</span>
+                            <span class="ja">会社情報</span>
+                            <hr>
+                        </h2>
+                        <dl class="flex" id="information">
+                            <dt>会社名</dt>
+                            <dd>ウェブエンターテインメントデザイン株式会社</dd>
+                            <dt>所在地</dt>
+                            <dd>東京都渋谷区桜丘町99-9 West Buliding 3F</dd>
+                            <dt>代表</dt>
+                            <dd>XXXXXX</dd>
+                            <dt>設立</dt>
+                            <dd>2021年1月1日</dd>
+                            <dt>資本金</dt>
+                            <dd>3,000,000円</dd>
+                            <dt>事業内容</dt>
+                            <dd>Web制作・マーケティング</dd>
+                            <dd class="add">インターネットメディア事業</dd>
+                            <dd class="add">プロプーション企画・制作</dd>
+                            <dd class="add">ソーシャル企画・運営</dd>
+                        </dl>
+                    </div>
+                    <div id="company_right"><img src="image/company.jpg"></div>
+                </section>
+            </div>
+
+            <footer>
+                <div id="footer_inner">
+                    <div class="flex" id="footer_flex">
+                        <img src="image/logo.svg">
+                        <p>Web Entertainment Design Inc.<br>West Building 3F<br>9-99 Sakuragaokacho Shibuya-ku<br>Tokyo, Japan 150-0031<br>T/99-9999-9999</p>
+                    </div>
+                    <p>&copy;Web Entertainment Design Inc.</p>
                 </div>
-            </main>
-
-            <footer>&copy;TOTALLY</footer>
+            </footer>
         </div>
+
         <script src="js/script.js"></script>
     </body>
 </html>
