@@ -219,12 +219,12 @@ h3 {
     object-fit: cover;
 }
 #information {
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     font-size: 1.2rem;
 }
 #information dt {
-    width: 20%;
+    width: 25%;
     font-size: 1.4rem;
     margin-top: 10px;
 }
@@ -232,7 +232,7 @@ h3 {
     margin-top: 0;
 }
 #information dd {
-    width: 80%;
+    width: 75%;
     font-size: 1.4rem;
     margin-top: 10px;
 }
@@ -240,7 +240,7 @@ h3 {
     margin-top: 0;
 }
 #company #information .add {
-    margin-left: 20%;
+    margin-left: 25%;
 }
 /* company_end */
 
