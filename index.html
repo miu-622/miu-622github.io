@@ -2,144 +2,92 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Web Entertainment Design</title>
+        <title>創作</title>
         <link rel="shortcut icon" href="image/faviconV2.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-        <link href="https://miu-622.github.io/test/common.css" rel="stylesheet" type="text/css">
-        <script type="text/javascript" src="https://miu-622.github.io/test/jquery-3.4.1.min.js"></script>
-        <script type="text/javascript" src="https://miu-622.github.io/test/script.js"></script>
+        <link href="css/common.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
 
     </head>
 
     <body>
-        <div id="container">
-            <header class="flex">
-                <div class="flex header_inner">
-                    <h1><img src="https://raw.githubusercontent.com/miu-622/test/49293efef8997ffdb180697a210ccd768b0f8453/logo.svg"></h1>
-                    <nav>
-                        <ul class="flex">
-                            <a href="#news"><li>NEWS</li></a>
-                            <a href="#about"><li>ABOUT</li></a>
-                            <a href="#business"><li>BUSINESS</li></a>
-                            <a href="#company"><li>COMPANY</li></a>
+        <header>
+            <h1 class="site_title"><a href="#"><img src="image/logo.svg"></a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#news">お知らせ</a></li>
+                    <li><a href="#create">商品のご紹介</a></li>
+                    <li><a href="#place">店舗のご案内</a></li>
+                </ul>
+            </nav>
+            <div id="header_shop"><a href="#" target="_blank">オンラインストアを見る</a></div>
+        </header>
+
+        <main>
+            <section id="news" class="main_inner flex">
+                <h2>
+                    <span class="en">News</span>
+                    <span class="ja">お知らせ</span>
+                </h2>
+                <dl>
+                    <dt><time datetime="2021-01-01">2021-01-01</time></dt>
+                    <dd>タイトルタイトルタイトルタイトル</dd>
+                    <dt><time datetime="2021-01-01">2021-01-01</time></dt>
+                    <dd>タイトルタイトルタイトルタイトル</dd>
+                    <dt><time datetime="2021-01-01">2021-01-01</time></dt>
+                    <dd>タイトルタイトルタイトルタイトル</dd>
+                    <dt><time datetime="2021-01-01">2021-01-01</time></dt>
+                    <dd>タイトルタイトルタイトルタイトル</dd>
+                    <dt><time datetime="2021-01-01">2021-01-01</time></dt>
+                    <dd>タイトルタイトルタイトルタイトル</dd>
+                </dl>
+            </section>
+
+            <section id="create" class="main_inner flex menu">
+                <h2>新しい価値の創造<span>Create New Values</span></h2>
+                <div class="main_inner_img">
+                    <img src="image/products1.jpg">
+                    <div id="create_text" class="main_inner_text"><p>テキストテキスト<br>テキストテキスト</p></div>
+                </div>
+            </section>
+
+            <section id="harmony" class="main_inner flex menu">
+                <h2>科学と技術の調和<span>Science & Technology</span></h2>
+                <div class="main_inner_img">
+                    <img src="image/products2.jpg">
+                    <div id="harmony_text" class="main_inner_text"><p>テキストテキスト<br>テキストテキスト</p></div>
+                </div>
+            </section>
+
+            <div id="place">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6483.1457972360195!2d139.7336508!3d35.6628931!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b771049dc33%3A0x5bfe0248594cc802!2z5YWt5pys5pyo44OS44Or44K6!5e0!3m2!1sja!2sjp!4v1655221702549!5m2!1sja!2sjp" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </main>
+        
+        <footer>
+            <div class="flex">
+                <div id="footer_left">
+                    <p><a href="#" target="_blank">オンラインストアを見る</a><span> | </span><a href="mailto:xxxxx@xxx.com">お問い合わせ</a></p>
+                </div>
+                <div id="footer_right">
+                    <div class="site_title"><img src="image/logo.svg"></div>
+                    <p>〒１０６-００３２ 東京都港区六本木５丁目×××××
+                        電話：０３-ＸＸＸＸ-ＸＸＸＸ</p>
+                     <nav>
+                        <ul>
+                            <li><a href="#news">お知らせ</a></li>
+                            <li><a href="#create">商品のご紹介</a></li>
+                            <li><a href="#place">店舗のご案内</a></li>
                         </ul>
                     </nav>
                 </div>
-                <div id="contact">お問い合わせ</div>
-            </header>
-
-            <div id="main_img"><img src="https://github.com/miu-622/test/blob/main/mainvisual.jpg?raw=true"></div>
-
-
-            <div id="main">
-                <section id="news" class="main_inner">
-                    <h2>
-                        <span class="en">NEWS</span>
-                        <span class="ja">ニュース</span>
-                        <hr>
-                    </h2>
-                    <ul class="flex" id="news_flex">
-                        <li>
-                            <div class="news_list"><time datetime="2021-01-01">2021.01.01</time><span>NEWS</span></div>
-                            <p>タイトルタイトルタイトル</p>
-                        </li>
-                        <li>
-                            <div class="news_list"><time datetime="2021-01-01">2021.01.01</time><span>PRESS</span></div>
-                            <p>タイトルタイトルタイトル</p>
-                        </li>
-                        <li>
-                            <div class="news_list"><time datetime="2021-01-01">2021.01.01</time><span>NEWS</span></div>
-                            <p>タイトルタイトルタイトル</p>
-                        </li>
-                    </ul>
-                </section>
-
-                <section class="flex" id="about">
-                    <div id="about_img"><img src="https://github.com/miu-622/test/blob/main/about.jpg?raw=true"></div>
-                    <div id="about_text">
-                        <h2><span class="en">ABOUT</span>
-                            <span class="ja">私たちについて</span>
-                            <hr>
-                        </h2>
-                        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                    </div>
-                </section>
-
-                <section class="main_inner" id="business">
-                    <h2>
-                        <span class="en">BUSINESS</span>
-                        <span class="ja">事業内容</span>
-                        <hr>
-                    </h2>
-                    <div class="flex" id="business_photo">
-
-                        <div id="left">
-                            <div class="item">
-                                <h3>- Web制作・マーケティング</h3>
-                                <div class="item_img"><img src="https://github.com/miu-622/test/blob/main/business1.jpg?raw=true"></div>
-                            </div>
-                            <div class="item">
-                                <h3>- インターネットメディア事業</h3>
-                                <div class="item_img"><img src="https://github.com/miu-622/test/blob/main/business2.jpg?raw=true"></div>
-                            </div>
-                        </div>
-
-                        <div id="right">
-                            <div class="item">
-                                <h3>- プロプーション企画・制作</h3>
-                                <div class="item_img"><img src="https://github.com/miu-622/test/blob/main/business3.jpg?raw=true"></div>
-                            </div>
-                            <div class="item">
-                                <h3>- ソーシャル企画・運営</h3>
-                                <div class="item_img"><img src="https://github.com/miu-622/test/blob/main/business4.jpg?raw=true"></div>
-                            </div>
-                        </div>
-
-                    </div>
-                </section>
-
-                <section class="main_inner flex" id="company">
-                    <div id="company_left">
-                        <h2>
-                            <span class="en">COMCANY</span>
-                            <span class="ja">会社情報</span>
-                            <hr>
-                        </h2>
-                        <dl class="flex" id="information">
-                            <dt>会社名</dt>
-                            <dd>ウェブエンターテインメントデザイン株式会社</dd>
-                            <dt>所在地</dt>
-                            <dd>東京都渋谷区桜丘町99-9 West Buliding 3F</dd>
-                            <dt>代表</dt>
-                            <dd>XXXXXX</dd>
-                            <dt>設立</dt>
-                            <dd>2021年1月1日</dd>
-                            <dt>資本金</dt>
-                            <dd>3,000,000円</dd>
-                            <dt>事業内容</dt>
-                            <dd>Web制作・マーケティング</dd>
-                            <dd class="add">インターネットメディア事業</dd>
-                            <dd class="add">プロプーション企画・制作</dd>
-                            <dd class="add">ソーシャル企画・運営</dd>
-                        </dl>
-                    </div>
-                    <div id="company_right"><img src="https://github.com/miu-622/test/blob/main/company.jpg?raw=true"></div>
-                </section>
             </div>
-
-            <footer>
-                <div id="footer_inner">
-                    <div class="flex" id="footer_flex">
-                        <img src="https://raw.githubusercontent.com/miu-622/test/49293efef8997ffdb180697a210ccd768b0f8453/logo.svg">
-                        <p>Web Entertainment Design Inc.<br>West Building 3F<br>9-99 Sakuragaokacho Shibuya-ku<br>Tokyo, Japan 150-0031<br>T/99-9999-9999</p>
-                    </div>
-                    <p>&copy;Web Entertainment Design Inc.</p>
-                </div>
-            </footer>
-        </div>
-
+        </footer>
         <script src="js/script.js"></script>
     </body>
 </html>
