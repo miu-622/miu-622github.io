@@ -37,7 +37,7 @@ header {
     height: 100vh;
     padding : 60px 80px;
     color: white;
-    background-image: url(../image/mainvisual-pc.jpg);
+    background-image: url(https://github.com/miu-622/test/blob/main/mainvisual-pc.jpg?raw=true);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -213,12 +213,9 @@ footer .flex {
 /* footer_end */
 @media (max-width : 768px) {/* タブレット向け */
     /* header */
-    body {
-        background-color: rgba(0, 32, 180, 0.6);
-    }
     header {/* スマホ版でheaderのbackground-image変更 */
         padding : 60px;
-        background-image: url(../image/mainvisual-sp.jpg);
+        background-image: url(https://github.com/miu-622/test/blob/main/mainvisual-sp.jpg?raw=true);
     }
     /* header_end */
 
@@ -259,9 +256,6 @@ footer .flex {
     /* footer_end */
 }
 @media (max-width : 480px) {/* スマホ向け */
-    body {
-        background-color: rgba(149, 42, 39, 0.6);
-    }
     /* header */
     header {
         padding : 40px;
