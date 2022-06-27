@@ -275,6 +275,13 @@ footer .flex {
     /* footer_end */
 }
 @media (max-width : 440px) {/* スマホ向け */
+    header {
+        padding : 30px;
+    }
+    #header_shop {
+        bottom : 30px;
+        left : 20px;
+    }
     #news dd:nth-of-type(2) {
         border-left: 1px solid #333;
     }
