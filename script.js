@@ -2,7 +2,7 @@
 
 // topに戻るボタン //
 $(function(){
-  $('.site_title').click(function(){
+  $('h1').click(function(){
       $('html, body').animate({ 
         'scrollTop': 0 
       }, 1000);
