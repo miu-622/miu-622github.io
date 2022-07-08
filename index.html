@@ -2,91 +2,177 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>創作</title>
-        <link rel="shortcut icon" href="https://github.com/miu-622/test/blob/main/faviconV2.png?raw=true">
+        <title>Blog</title>
+        <link rel="shortcut icon" href="image/faviconV2.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-        <link href="https://miu-622.github.io/test/common.css" rel="stylesheet" type="text/css">
+        <link href="css/common.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
-        <script type="text/javascript" src="https://miu-622.github.io/test/jquery-3.4.1.min.js"></script>
-        <script type="text/javascript" src="https://miu-622.github.io/test/script.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
 
     </head>
 
     <body>
         <header>
-            <h1 class="site_title"><a href="#"><img src="https://raw.githubusercontent.com/miu-622/test/2bab9b87f41120c41c4096df0e330547c85b2495/logo.svg"></a></h1>
+            <h1 class="site_title wrapper">
+                <a href="#top"><img src="image/logo.svg"></a>
+            </h1>
             <nav>
-                <ul>
-                    <li><a href="#news">お知らせ</a></li>
-                    <li><a href="#create">商品のご紹介</a></li>
-                    <li><a href="#place">店舗のご案内</a></li>
+                <ul class="flex wrapper">
+                    <li>NEW</li>
+                    <li>COLUMN</li>
+                    <li>SERIES</li>
+                    <li>Q&A</li>
+                    <li>CONTACT</li>
                 </ul>
             </nav>
-            <div id="header_shop"><a href="#" target="_blank">オンラインストアを見る</a></div>
         </header>
 
-        <main>
-            <section id="news" class="main_inner flex">
-                <h2>
-                    <span class="en">News</span>
-                    <span class="ja">お知らせ</span>
-                </h2>
-                <dl>
-                    <dt><time datetime="2021-01-01">2021-01-01</time></dt>
-                    <dd>タイトルタイトルタイトルタイトル</dd>
-                    <dt><time datetime="2021-01-01">2021-01-01</time></dt>
-                    <dd>タイトルタイトルタイトルタイトル</dd>
-                    <dt><time datetime="2021-01-01">2021-01-01</time></dt>
-                    <dd>タイトルタイトルタイトルタイトル</dd>
-                    <dt><time datetime="2021-01-01">2021-01-01</time></dt>
-                    <dd>タイトルタイトルタイトルタイトル</dd>
-                    <dt><time datetime="2021-01-01">2021-01-01</time></dt>
-                    <dd>タイトルタイトルタイトルタイトル</dd>
-                </dl>
-            </section>
+        <div id="container" class="wrapper">
+            <div class="flex" id="pickup">
+                <article class="pickup_article">
+                    <img src="image/pickup1.jpg">
+                    <h2 class="pickup_title">タイトルテキストテキストテキストテキストテキストテキストテキスト</h2>
+                    <div class="readmore">
+                        <a href="#">READ MORE</a>
+                    </div>
+                </article>
 
-            <section id="create" class="main_inner flex menu">
-                <h2>新しい価値の創造<span>Create New Values</span></h2>
-                <div class="main_inner_img">
-                    <img src="https://github.com/miu-622/test/blob/main/products1.jpg?raw=true">
-                    <div id="create_text" class="main_inner_text"><p>テキストテキスト<br>テキストテキスト</p></div>
-                </div>
-            </section>
+                <article class="pickup_article">
+                    <img src="image/pickup2.jpg">
+                    <h2 class="pickup_title">タイトルテキストテキストテキストテキストテキストテキストテキスト</h2>
+                    <div class="readmore">
+                        <a href="#">READ MORE</a>
+                    </div>
+                </article>
 
-            <section id="harmony" class="main_inner flex menu">
-                <h2>科学と技術の調和<span>Science & Technology</span></h2>
-                <div class="main_inner_img">
-                    <img src="https://github.com/miu-622/test/blob/main/products2.jpg?raw=true">
-                    <div id="harmony_text" class="main_inner_text"><p>テキストテキスト<br>テキストテキスト</p></div>
-                </div>
-            </section>
-
-            <div id="place">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6483.1457972360195!2d139.7336508!3d35.6628931!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b771049dc33%3A0x5bfe0248594cc802!2z5YWt5pys5pyo44OS44Or44K6!5e0!3m2!1sja!2sjp!4v1655221702549!5m2!1sja!2sjp" 
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <article class="pickup_article">
+                    <img src="image/pickup3.jpg">
+                    <h2 class="pickup_title">タイトルテキストテキストテキストテキストテキストテキストテキスト</h2>
+                    <div class="readmore">
+                        <a href="#">READ MORE</a>
+                    </div>
+                </article>
             </div>
-        </main>
-        
-        <footer>
-            <div class="flex">
-                <div id="footer_left">
-                    <p><a href="#" target="_blank">オンラインストアを見る</a><span> | </span><a href="mailto:xxxxx@xxx.com">お問い合わせ</a></p>
-                </div>
-                <div id="footer_right">
-                    <div class="site_title"><img src="https://raw.githubusercontent.com/miu-622/test/0444b516b4c2e95de1e603b3367e07136e527c8b/logo.svg"></div>
-                    <p>〒１０６-００３２ 東京都港区六本木５丁目×××××
-                        電話：０３-ＸＸＸＸ-ＸＸＸＸ</p>
-                     <nav>
+
+            <div class="flex" id="main_contents">
+                <main>
+                    <article>
+                        <h2 class="main_title">タイトルテキストテキストテキストテキストテキストテキストテキスト</h2>
+                        <p class="date">2020.01.01 カテゴリ1</p>
+                        <img src="image/main1.jpg">
+                        <p class="main_text">本文テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        <div class="readmore">
+                            <a href="#">READ MORE</a>
+                        </div>
+                    </article>
+
+                    <article>
+                        <h2 class="main_title">タイトルテキストテキストテキストテキストテキストテキストテキスト</h2>
+                        <p class="date">2020.01.01 カテゴリ1</p>
+                        <img src="image/main2.jpg">
+                        <p class="main_text">本文テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        <div class="readmore">
+                            <a href="#">READ MORE</a>
+                        </div>
+                    </article>
+
+                    <article>
+                        <h2 class="main_title">タイトルテキストテキストテキストテキストテキストテキストテキスト</h2>
+                        <p class="date">2020.01.01 カテゴリ1</p>
+                        <img src="image/main3.jpg">
+                        <p class="main_text">本文テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        <div class="readmore">
+                            <a href="#">READ MORE</a>
+                        </div>
+                    </article>
+                </main>
+
+                <aside>
+                    <section id="author">
+                        <div id="author_photo">
+                            <img src="image/author.jpg">
+                            <h3>Name Name</h3>
+                        </div>
+                        <p>プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    </section>
+
+                    <section id="ranking">
+                        <h3>Ranking</h3>
+                        <article>
+                            <img src="image/ranking1.jpg">
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        </article>
+
+                        <article>
+                            <img src="image/ranking2.jpg">
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        </article>
+
+                        <article>
+                            <img src="image/ranking3.jpg">
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        </article>
+                    </section>
+
+                    <section id="archive">
+                        <h3>Archive</h3>
                         <ul>
-                            <li><a href="#news">お知らせ</a></li>
-                            <li><a href="#create">商品のご紹介</a></li>
-                            <li><a href="#place">店舗のご案内</a></li>
+                            <li>XXXX年XX月XX日(XX)</li>
+                            <li>XXXX年XX月XX日(XX)</li>
+                            <li>XXXX年XX月XX日(XX)</li>
+                            <li>XXXX年XX月XX日(XX)</li>
+                            <li>XXXX年XX月XX日(XX)</li>
+                            <li>XXXX年XX月XX日(XX)</li>
+                            <li>XXXX年XX月XX日(XX)</li>
+                            <li>XXXX年XX月XX日(XX)</li>
+                            <li>XXXX年XX月XX日(XX)</li>
+                            <li>XXXX年XX月XX日(XX)</li>
+                            <li>XXXX年XX月XX日(XX)</li>
+                            <li>XXXX年XX月XX日(XX)</li>
+                            <li>XXXX年XX月XX日(XX)</li>
+                            <li>XXXX年XX月XX日(XX)</li>
+                            <li>XXXX年XX月XX日(XX)</li>
                         </ul>
-                    </nav>
-                </div>
+                    </section>
+                </aside>
             </div>
+        </div>
+
+        <footer>
+            <div class="wrapper flex" id="footer_inner">
+                <section id="about">
+                    <h3>About</h3>
+                    <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    <ul>
+                        <li><a href="#">プロフィール詳細</a></li>
+                        <li><a href="#">お仕事の依頼</a></li>
+                        <li><a href="#">お問い合わせ</a></li>
+                    </ul>
+                </section>
+
+                <section id="menu">
+                    <h3>Menu</h3>
+                    <ul>
+                        <li><a href="#">NEW</a></li>
+                        <li><a href="#">CATEGORY</a></li>
+                        <li><a href="#">COLUMN</a></li>
+                        <li><a href="#">SERIES</a></li>
+                        <li><a href="#">Q&A</a></li>
+                    </ul>
+                </section>
+
+                <section id="twitter">
+                    <h3>Twitter</h3>
+                    <a class="twitter-timeline" data-lang="ja" data-height="315" href="https://twitter.com/TwitterJP?ref_src=twsrc%5Etfw">Tweets by TwitterJP</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </section>
+            </div>
+            <p id="copy">&copy; Tradel & Blog</p>
         </footer>
         <script src="js/script.js"></script>
     </body>
