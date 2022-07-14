@@ -228,6 +228,7 @@ footer ul {
 }
 #twitter {
     width: 100%;
+	background-color: aqua;
 }
 #twitter iframe {
     width: 100% !important;
