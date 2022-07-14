@@ -229,6 +229,9 @@ footer ul {
 #twitter {
     width: 100%;
 }
+#twitter iframe {
+    width: 100% !important;
+}
 #copy {
     font-size: 1.2rem;
     text-align: center;
