@@ -231,7 +231,7 @@ footer ul {
 	background-color: aqua;
 }
 #twitter iframe {
-    width: 100% !important;
+    width: 400px !important;
 }
 #copy {
     font-size: 1.2rem;
