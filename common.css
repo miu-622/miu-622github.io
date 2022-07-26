@@ -37,7 +37,7 @@ li {
 header {
     width: 100vw;
     height: 100vh;
-    background-image: url(../image/mainvisual.jpg);
+    background-image: url(https://github.com/miu-622/test/blob/main/mainvisual.jpg?raw=true);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -78,7 +78,7 @@ h1 {
     position: relative;
 }
 #menu_logo {
-    background-image: url(../image/menu.jpg);
+    background-image: url(https://github.com/miu-622/test/blob/main/menu.jpg?raw=true);
 }
 .parallax h2 {
     font-size: 7.2rem;
@@ -128,7 +128,7 @@ h3 {
     padding-top : 8px;
 }
 #about_logo {
-    background-image: url(../image/about.jpg);
+    background-image: url(https://github.com/miu-622/test/blob/main/about.jpg?raw=true);
 }
 #about .flex {
     flex-wrap: wrap;
@@ -230,7 +230,7 @@ a.btn-border {
   }
 /* button */
 #location_logo {
-    background-image: url(../image/location.jpg);
+    background-image: url(https://github.com/miu-622/test/blob/main/location.jpg?raw=true);
 }
 #map iframe {
     width: 100%;
