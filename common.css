@@ -144,6 +144,7 @@ h3 {
     text-align: left;
     line-height: 2;
 }
+
 /* button */
 #button {
   font-size: 1.6rem;
@@ -229,6 +230,7 @@ a.btn-border {
     width: 100%;
   }
 /* button */
+
 #location_logo {
     background-image: url(https://github.com/miu-622/test/blob/main/location.jpg?raw=true);
 }
@@ -245,7 +247,12 @@ a.btn-border {
 #address p {
     margin-bottom : 10px;
 }
+#address_number {
+    color : #000;
+    text-decoration: none;
+}
 /* main */
+
 /* footer */
 footer {
     font-size: 1.2rem;
