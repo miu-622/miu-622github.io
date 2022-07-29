@@ -247,7 +247,7 @@ a.btn-border {
 #address p {
     margin-bottom : 10px;
 }
-#address_number {
+#address_number a {
     color : #000;
     text-decoration: none;
 }
